@@ -1,0 +1,71 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Main Content Styles */
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bucket List Styles */
+.bucket-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bucket-list li {
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Completed Task Styles */
+.bucket-list li.completed {
+    color: green;
+}
+
+.bucket-list li.completed .icon {
+    margin-left: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
